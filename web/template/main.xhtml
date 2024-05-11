@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="jakarta.faces.html" xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<head>
+    <!-- title -->
+    <title>
+        <ui:insert name="title">Default Title</ui:insert>
+    </title>
+    <!-- import css as a library-->
+    <link rel="stylesheet" type="text/css" href="assets/custom.css" />
+
+</head>
+
+<body>
+    <!-- header -->
+    <div id="header">
+        <ui:insert name="header"></ui:insert>
+    </div>
+
+    <!-- content -->
+    <div id="main_content">
+        <ui:insert name="main_content"></ui:insert>
+    </div>
+
+    <div id="bottom_menu">
+        <ui:insert name="bottom_menu"></ui:insert>
+    </div>
+
+    <!-- footer -->
+    <div id="footer">
+        <ui:insert name="footer"></ui:insert>
+    </div>
+</body>
+
+</html>

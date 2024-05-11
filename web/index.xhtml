@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://xmlns.jcp.org/jsf/html">
+<!-- import main layout -->
+<ui:composition template="/template/main.xhtml" xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://xmlns.jcp.org/jsf/facelets" xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <!-- define title -->
+    <ui:define name="title">
+        <h:outputText value="eBusiness" />
+    </ui:define>
+    <!-- define header -->
+    <ui:define name="header">
+        <h:outputText value="Welcome: Login, Logout and Registration" />
+    </ui:define>
+    <!-- define content -->
+    <ui:define name="main_content">
+        <h:outputLink value="login.xhtml">Login</h:outputLink>
+        <h:outputLink value="registration.xhtml">Register</h:outputLink>
+    </ui:define>
+    <ui:define name="bottom_menu">
+        <h:outputText value="" />
+    </ui:define>
+    <!-- define footer -->
+    <ui:define name="footer">
+        <h:outputText value="This is the footer" />
+    </ui:define>
+</ui:composition>
+
+</html>
