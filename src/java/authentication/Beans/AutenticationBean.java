@@ -374,5 +374,5 @@ public class AutenticationBean implements Serializable {
           Logger.getAnonymousLogger().log(Level.SEVERE, "Unable to recover user", e);
           return null;
         }
-    }   
+    }  
 }
