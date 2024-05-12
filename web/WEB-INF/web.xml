@@ -15,7 +15,7 @@
     </servlet-mapping>
     <filter>
         <filter-name>LoggingFilter</filter-name>
-        <filter-class>Authentication.Filters.LoginFilter</filter-class>
+        <filter-class>authentication.Filters.LoginFilter</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>LoggingFilter</filter-name>
